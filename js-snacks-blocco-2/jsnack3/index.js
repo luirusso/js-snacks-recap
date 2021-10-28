@@ -12,7 +12,7 @@ console.log(surnames);
 const fakeGuests = [];
 
 
-for (i = 0; i <= names.length - 1; i++) {
+for (let i = 0; i <= names.length - 1; i++) {
     const randomName = names[Math.floor(names.length * Math.random())]
     console.log(randomName);
 
